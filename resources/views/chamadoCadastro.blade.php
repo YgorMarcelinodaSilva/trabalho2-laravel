@@ -9,10 +9,10 @@
 
     <form method="POST" action="{{route('chamado.store')}}">
         @csrf
-        Número do chamado:
-        <input type="text" name="id" id="id">
+        Código do produto:
+        <input type="text" name="idProduto" id="id">
         <br><br>
-        Titulo:
+        Titulo do Problema:
         <input type="text" name="titulo" id="titulo">
         <br><br>
         Descrição do Problema:

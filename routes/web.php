@@ -4,7 +4,7 @@ use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\ChamadoController;
 use App\Http\Controllers\LoginController;
 use App\Http\Controllers\ProdutoController;
-use App\Http\Controllers\CidadeController;
+use App\Http\Controllers\EntregaController;
 
 
 
@@ -57,4 +57,4 @@ Route::resource('chamado', ChamadoController::class);
 
 Route::resource('produto', ProdutoController::class);
 
-Route::resource('cidade', CidadeController::class);
+Route::resource('entrega', EntregaController::class);

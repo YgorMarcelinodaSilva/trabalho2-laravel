@@ -7,17 +7,17 @@
 </head>
 <body>
 
-    <form method="POST" action="{{route('login.store')}}">
+    <form method="POST" action="{{route('entrega.store')}}">
         @csrf
-        Código:
-        <input type="text" name="codigo">
+        Código do Produto:
+        <input type="text" name="codigoProduto">
         <br><br>
-        Nome da Cidade:
-        <input type="text" name="nomeDaCidade" >
+        Cidade de Destino :
+        <input type="text" name="cidade" >
         <br>
         <br>
-        Estado
-        <input type="text" name="estado" >
+        Observações da entrega
+        <input type="text" name="observações" >
         <br>
         <br>
         <input type="submit" class="botao" name="Salvar" value="Salvar">  

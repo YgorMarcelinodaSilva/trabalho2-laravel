@@ -7,7 +7,7 @@
 </head>
 <body>
 
-    <form method="POST" action="{{route('login.store')}}">
+    <form method="POST" action="{{route('produto.store')}}">
         @csrf
         Código:
         <input type="text" name="codigo">
